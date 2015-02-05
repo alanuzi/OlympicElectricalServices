@@ -2,13 +2,14 @@
 title: Olympic Electrical Services
 email: simon@olympicelectricalservices.co.uk
 description: > # Olympic Electrical Services, covering Devon and Cornwall
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/OlympicElectricalServices" # the subpath of your site, e.g. /blog/
 url: "http://olympicelectricalservices.co.uk" # the base hostname & protocol for your site
 images: "/img"
 theme: "flatly"
 
 #twitter_username: jekyllrb
 #github_username:  jekyll
+
 
 # Build settings
 markdown: kramdown
