@@ -2,22 +2,23 @@
 
   <div class="wrapper">
 
-
-
-
-
-  <!--  Navigation menu -->
-  <div class="row">
-      <nav class="navbar navbar-default navbar-fixed-top sticky">
+    <!--  Navigation menu -->
+    <div class="row">
+      <nav class="navbar navbar-default navbar-fixed-top sticky" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
             <a class="navbar-brand" href="{{ site.baseurl }}/">
               <!--<img src="{{ site.images | prepend: site.baseurl }}/favicon.ico" class="img-responsive" alt="Olympic Electrical Services logo">-->
-              OES
-            </a>
+              OES</a>
           </div>
-          <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
+              <li class="active"><a href="{{site.baseurl}}">Home</a></li>
               <li><a href="{{site.baseurl}}/about/index.html">About</a></li>
               <li><a href="{{site.baseurl}}/domestic/index.html">Domestic</a></li>
               <li><a href="{{site.baseurl}}/commercial/index.html">Commercial</a></li>
@@ -31,6 +32,7 @@
           </div>
         </div>
       </nav>
+    
     </div>
   </div>
 
